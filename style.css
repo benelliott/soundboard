@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-main {
+    width: 100%;
+    height: 100%;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #9E630A;
+}
+
+#header {
+    flex-shrink: 0;
+    border: 1em solid #7e0002;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+.img-radiologist {
+    height: 10em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.h1-radiologist {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#soundboard {
+    border: 1em solid #265D27;
+    border-radius: 1em;
+    flex: 1;
+    overflow-y: auto;
+    padding: 1%;
+}
+
+.wrapper-button {
+    transition: 0.3s ease -webkit-filter;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 0 #3E3E3E;
+    cursor: pointer;
+    width: 10em;
+    height: 10em;
+    background-size: auto 100%;
+}
+
+.wrapper-button:hover {
+    -webkit-filter: brightness(0.4);
+}
+
+.wrapper-button img {
+
+}

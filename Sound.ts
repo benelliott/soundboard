@@ -30,8 +30,7 @@ class Sound {
 
     public generateSoundButtonHtml(): string {
         return `
-        <div class="wrapper-button" id="${this.soundButtonId}">
-            <img src="${this.imagePath}" alt="${this.displayName}"/>
+        <div class="wrapper-button" id="${this.soundButtonId}" title="${this.displayName}" style="background: url('${this.imagePath}') no-repeat center">
         </div>
         `;
     }
