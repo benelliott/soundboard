@@ -7,7 +7,25 @@ let playSound = (path: string) => {
 
 (()=>{
     let soundNames = [
-        'Woof'
+        'Thunderstorm',
+        'Cheering',
+        'Sheep',
+        'Gasp',
+        'Laughter',
+        'Boo',
+        'Rewind',
+        'Oh No',
+        'Facebook Messenger',
+        'Horn',
+        'Catfight',
+        'Telephone',
+        'Bubbles',
+        'Door Opening',
+        'Door Closing',
+        'Suspense',
+        'Doh',
+        'Wolf',
+        'Punch'
     ];
 
     let sounds = soundNames.map((name) => new Sound(name));

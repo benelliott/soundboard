@@ -12,7 +12,7 @@ class Sound {
     }
 
     private static IMAGE_FILEPATH_PREFIX = 'images/';
-    private static IMAGE_FILEPATH_SUFFIX = '.png';
+    private static IMAGE_FILEPATH_SUFFIX = '.jpg';
 
     private static imagePathFromId(id: string): string {
         return Sound.IMAGE_FILEPATH_PREFIX + id + Sound.IMAGE_FILEPATH_SUFFIX;
@@ -30,7 +30,7 @@ class Sound {
 
     public generateSoundButtonHtml(): string {
         return `
-        <div class="wrapper-button" id="${this.soundButtonId}" title="${this.displayName}" style="background: url('${this.imagePath}') no-repeat center">
+        <div class="wrapper-button" id="${this.soundButtonId}" title="${this.displayName}" style="background-image: url('${this.imagePath}')">
         </div>
         `;
     }
